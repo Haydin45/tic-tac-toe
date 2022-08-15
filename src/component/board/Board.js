@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { BoardContext } from "../../context/board/BoardContext";
 import Box from "../box/Box";
 
-const BoxContainer = () => {
+const Board = () => {
   const { boxList } = useContext(BoardContext);
 
   return (
@@ -14,4 +14,4 @@ const BoxContainer = () => {
   );
 };
 
-export default BoxContainer;
+export default Board;
